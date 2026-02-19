@@ -3,8 +3,12 @@
 **Goal:** Two cats walk towards each other on a sidewalk, glare at each other, and one pulls out a rocket launcher.
 
 ---
+## Learning Python
+**Python Tutorials**
+ - [Codecademy Python 3](https://www.codecademy.com/learn/learn-python-3)
+ - [w3 Python](https://www.w3schools.com/python/)
 
-## Week 1: Blender & Python Fundamentals
+## Step 1: Blender & Python Fundamentals
 
 **Objectives:**
 - Install Blender and get comfortable with the interface
@@ -16,16 +20,14 @@
 
 **Blender Tutorials**
  - [Blender Donut Tutorial Part 1 (2026)](https://youtu.be/-tbSCMbJA6o?si=jO6r8BKQ5SBn6W_X)
+ - [Blender Basic Modelling Tutorial (Donut Part 2)](https://youtu.be/K1UyEdmSttQ?si=36N3zgnESKK8OyRM)
  - [Beginner Python Exercise in Blender: Simple cube location animation](https://youtu.be/nmJqIaSZlRs?si=AWXLPIpg91sutQVL)
  - [Blender Python Tutorial : An Introduction to Scripting](https://www.youtube.com/watch?v=cyt0O7saU4Q)
 
-**Python Tutorial**
- - [Codecademy Python 3](https://www.codecademy.com/learn/learn-python-3)
-   - Get through "Hello World" section
 
 ---
 
-## Week 2: Basic Modeling — The Cats
+## Step 2: Basic Modeling — The Cats
 
 **Objectives:**
 - Learn basic mesh modeling: extrude, loop cut, subdivide, mirror modifier
@@ -39,9 +41,12 @@
 
 **Deliverable:** Two distinct low-poly cat models saved in your .blend file.
 
+**Blender Tutorials**
+ - [Blender Basic Organic Modelling Tutorial (Donut Part 3)](https://youtu.be/9OA2asQdi_U?si=V69x6mn1RiHKOj6o)
+
 ---
 
-## Week 3: Materials, Textures & the Sidewalk Scene
+## Step 3: Materials, Textures & the Sidewalk Scene
 
 **Objectives:**
 - Learn Blender's material system: base color, roughness, simple node setups
@@ -55,9 +60,12 @@
 
 **Deliverable:** A fully textured scene with both cats placed on the sidewalk, looking decent in a render.
 
+**Blender Tutorials**
+ - [Blender Basic Materials Tutorial (Donut Part 4)](https://youtu.be/5Xlu2zwbJd0?si=7wpkaWF3y_5EXqay)
+
 ---
 
-## Week 4: Rigging — Making the Cats Move
+## Step 4: Rigging — Making the Cats Move
 
 **Objectives:**
 - Learn armature basics: adding bones, parenting mesh to armature with automatic weights
@@ -72,9 +80,11 @@
 
 **Deliverable:** Both cats rigged and poseable. Screenshot showing 2-3 test poses.
 
+**Blender Tutorials**
+ - [Blender Basic Texturing Tutorial (Donut Part 5)](https://youtu.be/h30ZJQrb4s8?si=OGuW5dH4ZpUWH0oL)
 ---
 
-## Week 5: Animation Basics — The Walk Cycle
+## Step 5: Animation Basics — The Walk Cycle
 
 **Objectives:**
 - Learn keyframe animation: inserting keyframes, using the timeline and dope sheet
@@ -89,9 +99,11 @@
 
 **Deliverable:** Both cats walking towards each other and stopping near the center of the sidewalk. ~3-5 seconds of animation.
 
+**Blender Tutorials**
+ - [Blender Basic UV Unwrapping Tutorial (Donut Part 6)](https://youtu.be/yxAqN8TzFbo?si=PXnbAM8YT5G5kbrq)
 ---
 
-## Week 6: Acting Animation — The Glare & Rocket Launcher
+## Step 6: Acting Animation — The Glare & Rocket Launcher
 
 **Objectives:**
 - Animate the "acting" sequence: cats stop, square up, and glare
@@ -106,9 +118,11 @@
 
 **Deliverable:** Full animation sequence rough pass — walk, stop, glare, rocket launcher pull.
 
+**Blender Tutorials**
+ - [How to Scatter in Blender 5.0 (Donut Part 7)](https://youtu.be/_-QsGTL7pS0?si=R96Dl3PVhMqVxlmZ)
 ---
 
-## Week 7: Polish, Camera Work & Python Automation
+## Step 7: Polish, Camera Work & Python Automation
 
 **Objectives:**
 - Add camera movement: start wide, push in as cats approach, dramatic zoom on the rocket launcher
@@ -135,6 +149,8 @@
 
 **Deliverable:** Polished animation with camera work. At least 2 Python scripts that automate parts of your workflow.
 
+**Blender Tutorials**
+ - [The Basics of Lighting and Rendering in Blender (Donut Finale)](https://youtu.be/WobATxh3i-g?si=7jC38axu5sU5Rtic)
 ---
 
 ## Week 8: Final Render & Presentation
