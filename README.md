@@ -8,6 +8,11 @@
  - [Codecademy Python 3](https://www.codecademy.com/learn/learn-python-3)
  - [w3 Python](https://www.w3schools.com/python/)
 
+---
+## Tangental Learning: Animation in Javascript
+As a side project, spend 30 minutes per week going through the Khan Academy tutorial on Javascript. 
+  - **[Khan Academy Intro to Programming](https://www.khanacademy.org/computing/computer-programming/programming)** 
+
 ## Step 1: Blender & Python Fundamentals
 
 **Objectives:**
