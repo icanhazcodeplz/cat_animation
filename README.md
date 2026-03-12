@@ -18,17 +18,17 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 **Objectives:**
 - Install Blender and get comfortable with the interface
 - Learn navigation: orbiting, panning, zooming in the 3D viewport
+- Create a basic donut and a basic mug using the blender GUI (from tutorials)
 - Understand objects, edit mode vs object mode, and basic transformations (grab, rotate, scale)
-- Run your first Python script in Blender's scripting workspace (`bpy.ops.mesh.primitive_cube_add()`)
+- Learn basics of object placing and moving using python scripting
 
-**Deliverable:** A simple scene with a few primitive shapes (cubes, spheres) arranged and colored using both the GUI and Python scripting.
+**Deliverable:** Create a python script that spins the donut 1 time per second in a while loop (indefinitely)
 
 **Blender Tutorials**
  - [Blender Donut Tutorial Part 1 (2026)](https://youtu.be/-tbSCMbJA6o?si=jO6r8BKQ5SBn6W_X)
  - [Blender Basic Modelling Tutorial (Donut Part 2)](https://youtu.be/K1UyEdmSttQ?si=36N3zgnESKK8OyRM)
  - [Beginner Python Exercise in Blender: Simple cube location animation](https://youtu.be/nmJqIaSZlRs?si=AWXLPIpg91sutQVL)
- - [Blender Python Tutorial : An Introduction to Scripting](https://www.youtube.com/watch?v=cyt0O7saU4Q)
-
+ - [Beginner Blender Python Exercise: Easy cube rotation animation](https://www.youtube.com/watch?v=tBPuEWh88Lo&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=2)
 
 ---
 
