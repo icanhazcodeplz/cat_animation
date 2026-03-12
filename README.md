@@ -22,7 +22,7 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 - Understand objects, edit mode vs object mode, and basic transformations (grab, rotate, scale)
 - Learn basics of object placing and moving using python scripting
 
-**Deliverable:** Create a python script that spins the donut 1 time per second in a while loop (indefinitely)
+**Deliverable:** Create a python script that spins the donut 360 degrees around its center axis (like a frisbee)
 
 **Blender Tutorials**
  - [Blender Donut Tutorial Part 1 (2026)](https://youtu.be/-tbSCMbJA6o?si=jO6r8BKQ5SBn6W_X)
