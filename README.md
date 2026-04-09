@@ -27,27 +27,30 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 **Blender Tutorials**
  - [Blender Donut Tutorial Part 1 (2026)](https://youtu.be/-tbSCMbJA6o?si=jO6r8BKQ5SBn6W_X)
  - [Blender Basic Modelling Tutorial (Donut Part 2)](https://youtu.be/K1UyEdmSttQ?si=36N3zgnESKK8OyRM)
- - [Beginner Python Exercise in Blender: Simple cube location animation](https://youtu.be/nmJqIaSZlRs?si=AWXLPIpg91sutQVL)
- - [Beginner Blender Python Exercise: Easy cube rotation animation](https://www.youtube.com/watch?v=tBPuEWh88Lo&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=2)
+ - [1 - Beginner Python Exercise in Blender: Simple cube location animation](https://youtu.be/nmJqIaSZlRs?si=AWXLPIpg91sutQVL)
+ - [2 - Beginner Blender Python Exercise: Easy cube rotation animation](https://www.youtube.com/watch?v=tBPuEWh88Lo&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=2)
 
 ---
 
-## Step 2: Basic Modeling — The Cats
+## Step 2: Basic Cat That Moves in a Line
 
 **Objectives:**
 - Learn basic mesh modeling: extrude, loop cut, subdivide, mirror modifier
 - Model a simple low-poly cat (body, head, ears, tail, legs) — keep it stylized and simple
-- Duplicate and slightly modify the second cat so they look distinct (different proportions or ear shapes)
+- Use a script to move that cat in a straight line
 
 **Tips:**
 - Start from a cube for the body, extrude the legs and head
 - Use the mirror modifier to only model half the cat, then mirror it
 - Don't worry about realism — a blocky/cute style is fine and much easier
 
-**Deliverable:** Two distinct low-poly cat models saved in your .blend file.
+**Deliverable:** A blocky cat that moves in a straight line
 
 **Blender Tutorials**
- - [Blender Basic Organic Modelling Tutorial (Donut Part 3)](https://youtu.be/9OA2asQdi_U?si=V69x6mn1RiHKOj6o)
+ - [Blender Basic Organic Modelling Tutorial (Donut Part 3)](https://www.youtube.com/watch?v=9OA2asQdi_U&list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv&index=3)
+ - [Blender Basic Materials Tutorial (Donut Part 4)](https://www.youtube.com/watch?v=5Xlu2zwbJd0&list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv&index=4)
+ - [3 - Beginner Python Exercise in Blender: Make a cube from a list of vertices](https://youtu.be/mN3n9b98HMk?si=ZqcmO4YB5lBMsJre)
+ - [4 - Beginner Blender Python Exercise: Repeating code with for loops](https://www.youtube.com/watch?v=tj1ZmEdf9sA&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=4)
 
 ---
 
