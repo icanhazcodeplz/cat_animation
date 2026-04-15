@@ -40,7 +40,7 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 - Use a script to move that cat in a straight line
 
 **Tips:**
-- Start from a cube for the body, extrude the legs and head
+- Start from a cube or sphere for the body, extrude the legs and head
 - Use the mirror modifier to only model half the cat, then mirror it
 - Don't worry about realism — a blocky/cute style is fine and much easier
 
@@ -54,19 +54,22 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 
 ---
 
-## Step 3: Materials, Textures & the Sidewalk Scene
+## Step 3: Sidewalk and lighting
 
 **Objectives:**
-- Learn Blender's material system: base color, roughness, simple node setups
-- Assign different materials/colors to each cat (e.g., orange tabby vs gray cat)
-- Model the sidewalk background: a flat plane with sidewalk texture or procedural cracks
-- Add basic lighting (sun lamp + ambient) and a simple camera angle
+- Model a simple sidewalk: a flat plane scaled long enough for the cats to walk on
+- Add a single sun lamp to light the scene
+- Set up a simple camera angle that frames the sidewalk
 
 **Tips:**
-- Use procedural textures (Noise + ColorRamp) for a concrete sidewalk look
-- Add a subtle plane or boxes in the background for context (fence, wall, etc.)
+- Start with a plane (Shift+A → Mesh → Plane) and scale it along one axis to form the sidewalk
+- Add a loop cut or two across the plane to suggest sidewalk segments/cracks
+- Give the sidewalk a gray base color material — no need for fancy textures yet
+- Add a sun lamp (Shift+A → Light → Sun); rotate it so light comes in at an angle (~45°) for nice shadows
+- Only use the sun lamp — skip ambient, area lights, and HDRIs for now to keep things simple
+- Adjust the sun's **Strength** (in the light properties) if the scene looks too dark or blown out
 
-**Deliverable:** A fully textured scene with both cats placed on the sidewalk, looking decent in a render.
+**Deliverable:** A scene with the cat on a simple sidewalk, lit by a single sun lamp, looking decent in a render.
 
 **Blender Tutorials**
  - [Blender Basic Materials Tutorial (Donut Part 4)](https://youtu.be/5Xlu2zwbJd0?si=7wpkaWF3y_5EXqay)
