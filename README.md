@@ -9,7 +9,7 @@
  - [w3 Python](https://www.w3schools.com/python/)
 
 ---
-## Tangental Learning: Animation in Javascript
+## Tangential Learning: Animation in Javascript
 As a side project, spend 30 minutes per week going through the Khan Academy tutorial on Javascript. 
   - **[Khan Academy Intro to Programming](https://www.khanacademy.org/computing/computer-programming/programming)** 
 
@@ -37,16 +37,16 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 **Objectives:**
 - Learn basic mesh modeling: extrude, loop cut, subdivide, mirror modifier
 - Model a simple low-poly cat (body, head, ears, tail, legs) — keep it stylized and simple
-- Use a script to move that cat in a straight line
+- Use a script to move that cat in a straight line and then hop up and down a couple of times
 
 **Tips:**
 - Start from a cube or sphere for the body, extrude the legs and head
 - Use the mirror modifier to only model half the cat, then mirror it
 - Don't worry about realism — a blocky/cute style is fine and much easier
 
-**Deliverable:** A blocky cat that moves in a straight line
+**Deliverable:** A blocky cat that moves in a straight line and hops
 
-**Blender Tutorials**
+**Blender Tutorials (as needed)**
  - [Blender Basic Organic Modelling Tutorial (Donut Part 3)](https://www.youtube.com/watch?v=9OA2asQdi_U&list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv&index=3)
  - [Blender Basic Materials Tutorial (Donut Part 4)](https://www.youtube.com/watch?v=5Xlu2zwbJd0&list=PLjEaoINr3zgGUwGwXlj9kBe7TrVWNjkyv&index=4)
  - [3 - Beginner Python Exercise in Blender: Make a cube from a list of vertices](https://youtu.be/mN3n9b98HMk?si=ZqcmO4YB5lBMsJre)
@@ -76,20 +76,19 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 
 ---
 
-## Step 4: Rigging — Making the Cats Move
+## Step 4: Rigging — Making the Cat Move
 
 **Objectives:**
 - Learn armature basics: adding bones, parenting mesh to armature with automatic weights
-- Create a simple rig for each cat: spine, legs (4), head, jaw, tail
-- Test the rig by posing the cats in a few positions
+- Create a simple rig for the cat: spine, legs (4), head, jaw, tail
+- Test the rig by posing the cat in a few positions
 - Introduction to inverse kinematics (IK) for the legs if comfortable
 
 **Tips:**
-- Keep the rig simple — 15-20 bones per cat is plenty
+- Keep the rig simple — 15-20 bones is plenty
 - Name your bones clearly (e.g., `front_leg_L`, `tail_01`, `head`)
-- You can rig one cat and duplicate the armature for the second
 
-**Deliverable:** Both cats rigged and poseable. Screenshot showing 2-3 test poses.
+**Deliverable:** Cat rigged and poseable. Screenshot showing 2-3 test poses.
 
 **Blender Tutorials**
  - [Blender Basic Texturing Tutorial (Donut Part 5)](https://youtu.be/h30ZJQrb4s8?si=OGuW5dH4ZpUWH0oL)
@@ -98,9 +97,8 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 ## Step 5: Animation Basics — The Walk Cycle
 
 **Objectives:**
-- Learn keyframe animation: inserting keyframes, using the timeline and dope sheet
-- Create a walk cycle for the cats (4-8 keyframes looped)
-- Animate both cats walking towards each other from opposite ends of the sidewalk
+- Create a walk cycle for the cat (4-8 keyframes looped) using the python script
+- Animate the cat walking down the sidewalk and then jumping after it stops
 - Learn the Graph Editor for smoothing motion curves
 
 **Tips:**
@@ -108,13 +106,32 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
 - Use reference videos of cats walking
 - Keep it to ~4 key poses: contact, down, passing, up
 
-**Deliverable:** Both cats walking towards each other and stopping near the center of the sidewalk. ~3-5 seconds of animation.
+**Deliverable:** Cat walking down the street. Stopping, and jumping.
 
 **Blender Tutorials**
  - [Blender Basic UV Unwrapping Tutorial (Donut Part 6)](https://youtu.be/yxAqN8TzFbo?si=PXnbAM8YT5G5kbrq)
 ---
 
-## Step 6: Acting Animation — The Glare & Rocket Launcher
+## Step 6: The Second Cat — Duplicate & Place
+
+**Objectives:**
+- Duplicate the first cat and its rig
+- Give the second cat a different base color material to distinguish them
+- Place the second cat at the far end of the sidewalk, rotated 180° so it faces the first cat
+- Confirm both cats are positioned so a walk cycle will bring them toward each other
+
+**Tips:**
+- Select the cat mesh and armature together, then use `Shift+D` to duplicate, or `Object → Duplicate Objects`
+- In Python you can duplicate with `bpy.ops.object.duplicate()` after selecting the right objects
+- Rotate the duplicate exactly 180° on the Z axis (`R → Z → 180 → Enter`) to face it toward the first cat
+- Rename the duplicated objects (e.g. `cat_02`, `armature_02`) to avoid confusion later
+- Tweak the body color in the Material properties — a simple hue change is enough to tell them apart at a glance
+
+**Deliverable:** Two cats on the sidewalk, facing each other from opposite ends, each a distinct color.
+
+---
+
+## Step 7: Acting Animation — The Glare & Rocket Launcher
 
 **Objectives:**
 - Animate the "acting" sequence: cats stop, square up, and glare
@@ -133,7 +150,7 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
  - [How to Scatter in Blender 5.0 (Donut Part 7)](https://youtu.be/_-QsGTL7pS0?si=R96Dl3PVhMqVxlmZ)
 ---
 
-## Step 7: Polish, Camera Work & Python Automation
+## Step 8: Polish, Camera Work & Python Automation
 
 **Objectives:**
 - Add camera movement: start wide, push in as cats approach, dramatic zoom on the rocket launcher
@@ -164,7 +181,7 @@ As a side project, spend 30 minutes per week going through the Khan Academy tuto
  - [The Basics of Lighting and Rendering in Blender (Donut Finale)](https://youtu.be/WobATxh3i-g?si=7jC38axu5sU5Rtic)
 ---
 
-## Week 8: Final Render & Presentation
+## Step 9: Final Render & Presentation
 
 **Objectives:**
 - Do a final review of the entire animation sequence
